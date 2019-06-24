@@ -1,0 +1,66 @@
+.Main {
+  width: 12%;
+  border: 1px solid black;
+  text-align: center;
+  margin-left: 2%;
+  margin-top: 2%;
+  
+}
+
+.ImgDiv img {
+  /* animation: App-logo-spin infinite 20s linear; */
+  width: 100%;
+
+}
+
+.ParentDiv{
+  display: flex;
+
+}
+
+.ImgDiv{
+  width: 90%;
+  border: 1px solid black;
+  text-align: center;
+  margin: 7px auto;
+  
+  /* margin: 7px 7px 7px 7px; */
+}
+
+.Base {
+  width: 90%;
+  margin: 7px auto;
+  /* margin: 7px 7px; */
+  border: 1px solid black;
+  text-align: center;
+  background-color: lightblue;
+  text-overflow: none;
+  
+  /* margin-bottom: 10px; */
+}
+
+@media (min-width: 200%) {
+  .Base{
+    font-size: 2px;
+  }
+}
+
+
+.previous {
+  background-color: #526d99;
+  color: white;
+  float: right;
+  margin-right: 10%;
+}
+
+.next {
+  background-color: #526d99;
+  color: white;
+  float: right;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+      
